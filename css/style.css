@@ -1,0 +1,147 @@
+html, body, h1, h2, h3, h4, h5, h6, a, p{
+    font-family: 'Lora', serif !important;
+}
+
+.logo-img{
+    height: 48px !important;
+    width: auto;
+    margin-left: 15px;
+}
+
+.feature-product-title {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.feature-product-item {
+	padding: 10px !important;
+}
+
+.big-photo{
+    margin-top: 50px;
+}
+
+.card-photo{
+    padding: 0px;
+}
+
+.bottom-slider {
+    margin-top: 50px;
+}
+
+.top-header {
+    background-color: black;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+.top-header > p{
+    color: white;
+    font-size: 11px;
+}
+.background-for-nav {
+    background-color: white;
+    width: 100%;
+    height: 48px;
+    position: absolute;
+}
+
+.fb-fav-title {
+	margin-top: 10px;
+}
+.fb-fav-item {
+	margin-bottom: 25px;
+}
+
+.first-slide-overlay > div > p{
+	font-size: 20pt;
+}
+.slider-btn {
+	background-color: black;
+	color: white;
+}
+
+.slider-scroll-down-btn {
+	height: 40px;
+	width: 40px;
+	border: 1px solid white;
+}
+
+div.uk-navbar-dropdown.uk-drop.uk-drop-boundary.uk-drop-bottom-center {
+	top: 44px !important;
+}
+.mega-menu-col-header > a{
+	color: white;
+	background-color: black;
+}
+
+.product-card-text > p{
+	color: black;
+	font-size: 12px;
+}
+
+.fb-section-text, fb-section-text > a {
+	color: black;
+	font-size: 12px;
+}
+
+.fb-section-title {
+	color: black;
+	font-size: 20px;
+}
+
+.btn-shop-it {
+	background-color: transparent;
+	border: 4px solid white;
+	color: white;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif !important;
+	font-style: normal !important;
+	font-weight: bold !important;
+	font-size: 10pt !important;
+}
+.btn-shop-it:hover {
+	background-color: white;
+	color: black !important;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif !important;
+	font-style: normal !important;
+	font-weight: bold !important;
+	font-size: 10pt !important;
+}
+
+.navbar-mobile {
+	
+	height: 48px;
+	background-color: white !important;
+}
+
+.navbar-mobile > div > a {
+	color: black !important;
+}
+
+/*.off-canvas-mobile > ul > li{
+	color: black !important;
+}
+
+.off-canvas-mobile > ul > li > a{
+	color: black !important;
+}
+
+.off-canvas-mobile > ul > li > a > ul{
+	color: black !important;
+}
+.off-canvas-mobile > ul > li > ul > li{
+	color: black !important;
+}
+
+.off-canvas-mobile > ul > li > ul > li > a{
+	color: black !important;
+}*/
+
+.uk-offcanvas-bar {
+	background-color: white;
+}
+
+
+
+
+
+
