@@ -1,682 +1,750 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Helios</title>
-	
-	<meta charset="utf-8">
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<link rel="stylesheet" href="css/uikit.min.css" />
-	
-	<link rel="stylesheet" href="css/style.css" />
-	
-	<link rel="stylesheet" href="css/toTop.css" />
+    <title>Helios</title>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/uikit.min.css"/>
+
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <link rel="stylesheet" href="css/toTop.css"/>
     <script src="js/uikit.min.js"></script>
     <script src="js/uikit-icons.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700&amp;subset=vietnamese" rel="stylesheet">
 </head>
 <body>
-	<div class="uk-offcanvas-content">
-		<div class="top-header uk-visible@m">
-			<p class="uk-text-center uk-text-middle">FREE WORLDWIDE SHIPPING
-		        <span>
+<div class="uk-offcanvas-content">
+    <div class="top-header uk-visible@m">
+        <p class="uk-text-center uk-text-middle">FREE WORLDWIDE SHIPPING
+            <span>
 		            <a href="#" style="color: white; text-decoration: underline;">SHOP NOW</a>
 		        </span>
-			</p>
-		</div>
-		
-		<div class="background-for-nav uk-visible@m" uk-sticky="bottom: #offset"></div>
-		
-		<div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky" class="uk-visible@m">
-			<div class="uk-container">
-				<nav class="uk-navbar-container" uk-navbar style="height: 48px; background-color: white;">
-					<div class="uk-navbar-left"><a class="uk-navbar-item uk-logo" href="/" style="height: 48px">
-						<img src="img/logo.png" alt="logo" class="logo-img">
-						</a></div>
-					
-					<div class="uk-navbar-center">
-						<ul class="uk-navbar-nav">
-							<li><a href="#">Item</a>
-								
-								<div class="uk-navbar-dropdown" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify; delay-hide: 200">
-									<div class="uk-navbar-dropdown-grid uk-child-width-1-2" uk-grid>
-										<div>
-											<ul class="uk-nav uk-navbar-dropdown-nav">
-												<li><a href="#">Active</a></li>
-												<li class="uk-nav-divider"></li>
-												<li><a href="#">Item</a></li>
-												<li><a href="#">Item</a></li>
-												<li><a href="#">Item</a></li>
-												<li><a href="#">Item</a></li>
-											</ul>
-										</div>
-										
-										<div>
-											<ul class="uk-nav uk-navbar-dropdown-nav">
-												<li class="uk-active"><a href="#">Active</a></li>
-												<li class="uk-nav-divider"></li>
-												<li><a href="#">Item</a></li>
-												<li><a href="#">Item</a></li>
-												<li><a href="#">Item</a></li>
-												<li><a href="#">Item</a></li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</li>
-							<li><a href="#">Item</a>
-								
-								<div class="uk-navbar-dropdown" uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
-									<div class="uk-navbar-dropdown-grid uk-child-width-1-2" uk-grid>
-										<div>
-											<ul class="uk-nav uk-navbar-dropdown-nav">
-												<li class="uk-active"><a href="#">Active</a></li>
-												<li><a href="#">Item</a></li>
-												<li class="uk-nav-header">Header</li>
-												<li><a href="#">Item</a></li>
-												<li><a href="#">Item</a></li>
-												<li class="uk-nav-divider"></li>
-												<li><a href="#">Item</a></li>
-											</ul>
-										</div>
-										
-										<div>
-											<ul class="uk-nav uk-navbar-dropdown-nav">
-												<li class="uk-active"><a href="#">Active</a></li>
-												<li><a href="#">Item</a></li>
-												<li class="uk-nav-header">Header</li>
-												<li><a href="#">Item</a></li>
-												<li><a href="#">Item</a></li>
-												<li class="uk-nav-divider"></li>
-												<li><a href="#">Item</a></li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-					
-					<div class="uk-navbar-right">
-						<ul class="uk-iconnav">
-							<li><a href="#modal-full" uk-icon="icon: search" uk-toggle></a></li>
-							<li><a href="" uk-icon="icon: user"></a></li>
-							<li>
-								<button href="" uk-icon="icon: cart" type="button" uk-toggle="target: #offcanvas-flip"><span class="uk-badge" style="float: right;">1</span></button>
-								
-								<div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
-									<div class="uk-offcanvas-bar">
-										<button class="uk-offcanvas-close" type="button" uk-close></button>
-										
-										<h3>Title</h3>
-										
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</nav>
-				<!--<div class="uk-navbar-dropbar"></div>-->
-				<div id="modal-full" class="uk-modal-full uk-modal" uk-modal>
-					<div class="uk-modal-dialog uk-flex uk-flex-center uk-flex-middle" uk-height-viewport>
-						<button class="uk-modal-close-full" type="button" uk-close></button>
-						
-						<form class="uk-search uk-search-large">
-							<input class="uk-search-input uk-text-center" type="search" placeholder="Search..." autofocus>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky" class="uk-hidden@m">
-			<nav class="uk-navbar-container navbar-mobile" uk-navbar>
-				<div class="uk-navbar-left uk-position-center-left">
-					<a class="uk-navbar-toggle" href="#offcanvas-overlay" uk-toggle  uk-navbar-toggle-icon></a>
-					<div id="offcanvas-overlay" uk-offcanvas="mode: reveal; overlay: true" class="uk-offcanvas">
-						<div class="uk-offcanvas-bar">
-							<img src="img/logo.png" class="uk-position-top-center" alt="" style="height: 60px; width: auto;" />
-							
-							<div class="uk-inline uk-text-center" style="margin-top: 50px;"><span class="uk-form-icon" uk-icon="icon: search" style="color: black;"></span>
-								
-								<input class="uk-input" type="text" style="border: 1px solid black; color: black;">
-							</div>
-							<ul uk-accordion>
-							    <li class="uk-open">
-							        <a class="uk-accordion-title" href="#">Item 1</a>
-							        <div class="uk-accordion-content">
-							            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-							        </div>
-							    </li>
-							    <li>
-							        <a class="uk-accordion-title" href="#">Item 2</a>
-							        <div class="uk-accordion-content">
-							            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
-							        </div>
-							    </li>
-							    <li>
-							        <a class="uk-accordion-title" href="#">Item 3</a>
-							        <div class="uk-accordion-content">
-							            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
-							        </div>
-							    </li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				
-				<div class="uk-navbar-center"><a class="uk-navbar-item uk-logo" href="/">
-					<img src="img/logo.png" alt="logo" class="logo-img">
-					</a></div>
-				
-				<div class="uk-navbar-right" style="margin-right: 20px;">
-					<ul class="uk-iconnav">
-						<li>
-							<button href="" uk-icon="icon: cart" type="button" uk-toggle="target: #offcanvas-flip"><span class="uk-badge" style="float: right;">1</span></button>
-						</li>
-					</ul>
-				</div>
-			</nav>
-		</div>
-		
-		<div class="uk-position-relative uk-visible-toggle uk-light" uk-slideshow="autoplay: false; autoplay-interval: 4000; pause-on-hover: false">
-			<ul class="uk-slideshow-items" uk-height-viewport="offset-top: true;">
-				<li>
-					<div class="uk-position-cover">
-						<img src="img/slideshow_1.jpg" alt="" uk-cover>						
-						<div class="uk-position-center uk-position-small first-slide-overlay uk-visible@m" style="transform: translate(-100%, -50%)">
-							<img src="img/brush.png" alt="" style="height: 150px; width: auto;" />
-							
-							<div class="uk-overlay uk-position-center uk-position-small">
-								<p class="uk-margin-remove uk-text-center"><strong>Effortlessly upgrade your style</strong></p>
-							</div>
-							 <a class="uk-position-bottom-center uk-button slider-btn">SHOP NOW</a></div>
-						
-						<div class="uk-position-center uk-position-small first-slide-overlay uk-hidden@m">
-							<img src="img/brush.png" alt="" style="height: 150px; width: auto;" />
-							
-							<div class="uk-overlay uk-position-center uk-position-small">
-								<p class="uk-margin-remove uk-text-center"><strong>Effortlessly upgrade your style</strong></p>
-							</div>
-							 <a class="uk-position-bottom-center uk-button slider-btn">SHOP NOW</a></div>
-					</div>
-				</li>
-				<li>
-					<div class="uk-position-cover">
-						<img src="img/slideshow_2.jpg" alt="" uk-cover>
-						
-						<div class="uk-position-center uk-position-small first-slide-overlay uk-visible@m" style="transform: translate(0%, -50%)">
-							<img src="img/brush.png" alt="" style="height: 150px; width: auto;" />
-							
-							<div class="uk-overlay uk-position-center uk-position-small">
-								<p class="uk-margin-remove uk-text-center"><strong>Effortlessly upgrade your style</strong></p>
-							</div>
-							 <a class="uk-position-bottom-center uk-button slider-btn">SHOP NOW</a></div>
-						
-						<div class="uk-position-center uk-position-small first-slide-overlay uk-hidden@m">
-							<img src="img/brush.png" alt="" style="height: 150px; width: auto;" />
-							
-							<div class="uk-overlay uk-position-center uk-position-small">
-								<p class="uk-margin-remove uk-text-center"><strong>Effortlessly upgrade your style</strong></p>
-							</div>
-							 <a class="uk-position-bottom-center uk-button slider-btn">SHOP NOW</a></div>
-					</div>
-				</li>
-			</ul>
-			
-			<div class="uk-position-bottom-center uk-position-small">
-				<ul class="uk-dotnav">
-					<li uk-slideshow-item="0"><a href="#"></a></li>
-					<li uk-slideshow-item="1"><a href="#"></a></li>
-				</ul>
-			</div>
-		    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous">
-			</a>
-		    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next">
-			</a></div>
-		
-		<h4 class="uk-heading-line uk-text-center feature-product-title"><span>
+        </p>
+    </div>
+
+    <div class="background-for-nav uk-visible@m" uk-sticky="bottom: #offset"></div>
+
+    <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky" class="uk-visible@m">
+        <div class="uk-container">
+            <nav class="uk-navbar-container" uk-navbar style="height: 48px; background-color: white;">
+                <div class="uk-navbar-left"><a class="uk-navbar-item uk-logo" href="/" style="height: 48px">
+                    <img src="img/logo.png" alt="logo" class="logo-img">
+                </a></div>
+
+                <div class="uk-navbar-center">
+                    <ul class="uk-navbar-nav">
+                        <li><a href="#">Item</a>
+
+                            <div class="uk-navbar-dropdown"
+                                 uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify; delay-hide: 200">
+                                <div class="uk-navbar-dropdown-grid uk-child-width-1-2" uk-grid>
+                                    <div>
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            <li><a href="#">Active</a></li>
+                                            <li class="uk-nav-divider"></li>
+                                            <li><a href="#">Item</a></li>
+                                            <li><a href="#">Item</a></li>
+                                            <li><a href="#">Item</a></li>
+                                            <li><a href="#">Item</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            <li class="uk-active"><a href="#">Active</a></li>
+                                            <li class="uk-nav-divider"></li>
+                                            <li><a href="#">Item</a></li>
+                                            <li><a href="#">Item</a></li>
+                                            <li><a href="#">Item</a></li>
+                                            <li><a href="#">Item</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">Item</a>
+
+                            <div class="uk-navbar-dropdown"
+                                 uk-drop="boundary: !nav; boundary-align: true; pos: bottom-justify;">
+                                <div class="uk-navbar-dropdown-grid uk-child-width-1-2" uk-grid>
+                                    <div>
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            <li class="uk-active"><a href="#">Active</a></li>
+                                            <li><a href="#">Item</a></li>
+                                            <li class="uk-nav-header">Header</li>
+                                            <li><a href="#">Item</a></li>
+                                            <li><a href="#">Item</a></li>
+                                            <li class="uk-nav-divider"></li>
+                                            <li><a href="#">Item</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            <li class="uk-active"><a href="#">Active</a></li>
+                                            <li><a href="#">Item</a></li>
+                                            <li class="uk-nav-header">Header</li>
+                                            <li><a href="#">Item</a></li>
+                                            <li><a href="#">Item</a></li>
+                                            <li class="uk-nav-divider"></li>
+                                            <li><a href="#">Item</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="uk-navbar-right">
+                    <ul class="uk-iconnav">
+                        <li><a href="#modal-full" uk-icon="icon: search" uk-toggle></a></li>
+                        <li><a href="" uk-icon="icon: user"></a></li>
+                        <li>
+                            <button href="" uk-icon="icon: cart" type="button" uk-toggle="target: #offcanvas-flip"><span
+                                    class="uk-badge" style="float: right;">1</span></button>
+
+                            <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+                                <div class="uk-offcanvas-bar">
+                                    <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+                                    <h3>Title</h3>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                        consequat.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!--<div class="uk-navbar-dropbar"></div>-->
+            <div id="modal-full" class="uk-modal-full uk-modal" uk-modal>
+                <div class="uk-modal-dialog uk-flex uk-flex-center uk-flex-middle" uk-height-viewport>
+                    <button class="uk-modal-close-full" type="button" uk-close></button>
+
+                    <form class="uk-search uk-search-large">
+                        <input class="uk-search-input uk-text-center" type="search" placeholder="Search..." autofocus>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky" class="uk-hidden@m">
+        <nav class="uk-navbar-container navbar-mobile" uk-navbar>
+            <div class="uk-navbar-left uk-position-center-left">
+                <a class="uk-navbar-toggle" href="#offcanvas-overlay" uk-toggle uk-navbar-toggle-icon></a>
+                <div id="offcanvas-overlay" uk-offcanvas="mode: reveal; overlay: true" class="uk-offcanvas">
+                    <div class="uk-offcanvas-bar" style="padding: 0px;">
+                        <!--<img src="img/logo.png" class="uk-position-top-center" alt=""-->
+                        <!--style="height: 60px; width: auto;"/>-->
+
+                        <!--<div class="uk-inline uk-text-center" style="margin-top: 50px;"><span class="uk-form-icon"-->
+                        <!--uk-icon="icon: search"-->
+                        <!--style="color: black;"></span>-->
+
+                        <!--<input class="uk-input" type="text" style="border: 1px solid black; color: black;">-->
+                        <!--</div>-->
+                        <!--<div class="offcanvs-text">-->
+                        <!--<div class="uk-width-1-2@s uk-width-2-5@m">-->
+                        <!--<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>-->
+                        <!--<li class="uk-parent offcanvas-cell">-->
+                        <!--<a href="#">Parent</a>-->
+                        <!--<ul class="uk-nav-sub">-->
+                        <!--<li><a href="#">Sub item</a></li>-->
+                        <!--<li><a href="#">Sub item</a></li>-->
+                        <!--</ul>-->
+                        <!--</li>-->
+                        <!--<li class="uk-nav-divider"></li>-->
+                        <!--<li class="uk-parent">-->
+                        <!--<a href="#">Parent</a>-->
+                        <!--<ul class="uk-nav-sub">-->
+                        <!--<li><a href="#">Sub item</a></li>-->
+                        <!--<li><a href="#">Sub item</a></li>-->
+                        <!--</ul>-->
+                        <!--</li>-->
+                        <!--</ul>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <div class="uk-flex uk-flex-column">
+                            <div>
+                                <img src="img/logo.png" class="uk-position-top-center" alt=""
+                                     style="height: 60px; width: auto;"/>
+                            </div>
+                            <div class="uk-margin-top uk-text-center" style="padding-top: 50px;">
+                                <div class="uk-inline"><span
+                                        class="uk-form-icon"
+                                        uk-icon="icon: search"
+                                        style="color: black;"></span>
+                                    <input class="uk-input" type="text" style="border: 1px solid black; color: black;">
+                                </div>
+                            </div>
+                            <div class="uk-margin-top">
+                                <div class="offcanvs-text">
+                                    <div class="uk-width-1-1@s uk-width-1-1@m uk-width-1-1\@l">
+                                        <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+                                            <li class="uk-parent offcanvas-cell">
+                                                <a href="#" class="uk-text-center offcanvas-cell-lv1">MEN</a>
+                                                <ul class="uk-nav-sub offcanvas-sub-cell">
+                                                    <li class="offcanvas-cell-lv2-li"><a href="#" class="offcanvas-cell-lv2">ALL PRODUCTS</a></li>
+                                                    <li class="offcanvas-cell-lv2-li"><a href="#" class="offcanvas-cell-lv2">NEW ARRIVALS</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="uk-parent offcanvas-cell">
+                                                <a href="#" class="uk-text-center offcanvas-cell-lv1">WOMEN</a>
+                                                <ul class="uk-nav-sub">
+                                                    <li class="offcanvas-cell-lv2-li"><a href="#" class="offcanvas-cell-lv2">ALL PRODUCTS</a></li>
+                                                    <li class="offcanvas-cell-lv2-li"><a href="#" class="offcanvas-cell-lv2">NEW ARRIVALS</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="uk-navbar-center"><a class="uk-navbar-item uk-logo" href="/">
+                <img src="img/logo.png" alt="logo" class="logo-img">
+            </a></div>
+
+            <div class="uk-navbar-right" style="margin-right: 20px;">
+                <ul class="uk-iconnav">
+                    <li>
+                        <button href="" uk-icon="icon: cart" type="button" uk-toggle="target: #offcanvas-flip"><span
+                                class="uk-badge" style="float: right;">1</span></button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="uk-position-relative uk-visible-toggle uk-light"
+         uk-slideshow="autoplay: false; autoplay-interval: 4000; pause-on-hover: false">
+        <ul class="uk-slideshow-items" uk-height-viewport="offset-top: true;">
+            <li>
+                <div class="uk-position-cover">
+                    <img src="img/slideshow_1.jpg" alt="" uk-cover>
+                    <div class="uk-position-center uk-position-small first-slide-overlay uk-visible@m"
+                         style="transform: translate(-100%, -50%)">
+                        <img src="img/brush.png" alt="" style="height: 150px; width: auto;"/>
+
+                        <div class="uk-overlay uk-position-center uk-position-small">
+                            <p class="uk-margin-remove uk-text-center"><strong>Effortlessly upgrade your style</strong>
+                            </p>
+                        </div>
+                        <a class="uk-position-bottom-center uk-button slider-btn">SHOP NOW</a></div>
+
+                    <div class="uk-position-center uk-position-small first-slide-overlay uk-hidden@m">
+                        <img src="img/brush.png" alt="" style="height: 150px; width: auto;"/>
+
+                        <div class="uk-overlay uk-position-center uk-position-small">
+                            <p class="uk-margin-remove uk-text-center"><strong>Effortlessly upgrade your style</strong>
+                            </p>
+                        </div>
+                        <a class="uk-position-bottom-center uk-button slider-btn">SHOP NOW</a></div>
+                </div>
+            </li>
+            <li>
+                <div class="uk-position-cover">
+                    <img src="img/slideshow_2.jpg" alt="" uk-cover>
+
+                    <div class="uk-position-center uk-position-small first-slide-overlay uk-visible@m"
+                         style="transform: translate(0%, -50%)">
+                        <img src="img/brush.png" alt="" style="height: 150px; width: auto;"/>
+
+                        <div class="uk-overlay uk-position-center uk-position-small">
+                            <p class="uk-margin-remove uk-text-center"><strong>Effortlessly upgrade your style</strong>
+                            </p>
+                        </div>
+                        <a class="uk-position-bottom-center uk-button slider-btn">SHOP NOW</a></div>
+
+                    <div class="uk-position-center uk-position-small first-slide-overlay uk-hidden@m">
+                        <img src="img/brush.png" alt="" style="height: 150px; width: auto;"/>
+
+                        <div class="uk-overlay uk-position-center uk-position-small">
+                            <p class="uk-margin-remove uk-text-center"><strong>Effortlessly upgrade your style</strong>
+                            </p>
+                        </div>
+                        <a class="uk-position-bottom-center uk-button slider-btn">SHOP NOW</a></div>
+                </div>
+            </li>
+        </ul>
+
+        <div class="uk-position-bottom-center uk-position-small">
+            <ul class="uk-dotnav">
+                <li uk-slideshow-item="0"><a href="#"></a></li>
+                <li uk-slideshow-item="1"><a href="#"></a></li>
+            </ul>
+        </div>
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+           uk-slideshow-item="previous">
+        </a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+           uk-slideshow-item="next">
+        </a></div>
+
+    <h4 class="uk-heading-line uk-text-center feature-product-title"><span>
 		    <strong>FEATURED PRODUCTS</strong>
 		</span></h4>
-		
-		<div class="uk-container">
-			<!--dạng hover card-->
-			<!--<div uk-slider="center: true">
-				<div class="uk-position-relative">
-					<div class="uk-slider-container uk-light">
-						<ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-grid-small" style="padding-bottom: 20px;">
-							<li>
-								<div class="uk-card uk-card-default uk-card-hover">
-									<div class="uk-card-media-top">
-										<img src="img/photo.jpg" alt="">
-									</div>
-									
-									<div class="uk-card-body">
-										<p class="uk-text-center">ZACHARY</p>
-										
-										<p class="uk-text-center">$ 89.99</p>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="uk-card uk-card-default uk-card-hover">
-									<div class="uk-card-media-top">
-										<img src="img/photo.jpg" alt="">
-									</div>
-									
-									<div class="uk-card-body">
-										<p class="uk-text-center">ZACHARY</p>
-										
-										<p class="uk-text-center">$ 89.99</p>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="uk-card uk-card-default uk-card-hover">
-									<div class="uk-card-media-top">
-										<img src="img/photo.jpg" alt="">
-									</div>
-									
-									<div class="uk-card-body">
-										<p class="uk-text-center">ZACHARY</p>
-										
-										<p class="uk-text-center">$ 89.99</p>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="uk-card uk-card-default uk-card-hover">
-									<div class="uk-card-media-top">
-										<img src="img/photo.jpg" alt="">
-									</div>
-									
-									<div class="uk-card-body">
-										<p class="uk-text-center">ZACHARY</p>
-										
-										<p class="uk-text-center">$ 89.99</p>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="uk-card uk-card-default uk-card-hover">
-									<div class="uk-card-media-top">
-										<img src="img/photo.jpg" alt="">
-									</div>
-									
-									<div class="uk-card-body">
-										<p class="uk-text-center">ZACHARY</p>
-										
-										<p class="uk-text-center">$ 89.99</p>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="uk-card uk-card-default uk-card-hover">
-									<div class="uk-card-media-top">
-										<img src="img/photo.jpg" alt="">
-									</div>
-									
-									<div class="uk-card-body">
-										<p class="uk-text-center">ZACHARY</p>
-										
-										<p class="uk-text-center">$ 89.99</p>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="uk-card uk-card-default uk-card-hover">
-									<div class="uk-card-media-top">
-										<img src="img/photo.jpg" alt="">
-									</div>
-									
-									<div class="uk-card-body">
-										<p class="uk-text-center">ZACHARY</p>
-										
-										<p class="uk-text-center">$ 89.99</p>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="uk-card uk-card-default uk-card-hover">
-									<div class="uk-card-media-top">
-										<img src="img/photo.jpg" alt="">
-									</div>
-									
-									<div class="uk-card-body">
-										<p class="uk-text-center">ZACHARY</p>
-										
-										<p class="uk-text-center">$ 89.99</p>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="uk-card uk-card-default uk-card-hover">
-									<div class="uk-card-media-top">
-										<img src="img/photo.jpg" alt="">
-									</div>
-									
-									<div class="uk-card-body">
-										<p class="uk-text-center">ZACHARY</p>
-										
-										<p class="uk-text-center">$ 89.99</p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-					
-					<div class="uk-hidden@s uk-light"><a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous" style="color: black;"></a>
-			            <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next" style="color: black;"></a></div>
-					
-					<div class="uk-visible@s"><a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous" style="color: black;"></a>
-			            <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next" style="color: black;"></a></div>
-				</div>
-			
-			    <!--<ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>--*>
-			</div>-->
-			<!--dạng flat card-->
-			<div uk-slider="center: true">
-				<div class="uk-position-relative">
-					<div class="uk-slider-container uk-light">
-						<ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-grid-small" style="padding-bottom: 20px;">
-							<li>
-								<div class="uk-card">
-									<div class="uk-card-media-top">
-										<img src="img/gabriel.jpg" alt="">
-									</div>
-									
-									<div class="uk-card-body product-card-text">
-										<p class="uk-text-center">ZACHARY</p>
-										
-										<p class="uk-text-center">$ 89.99</p>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="uk-card">
-									<div class="uk-card-media-top">
-										<img src="img/gabriel.jpg" alt="">
-									</div>
-									
-									<div class="uk-card-body product-card-text">
-										<p class="uk-text-center">ZACHARY</p>
-										
-										<p class="uk-text-center">$ 89.99</p>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="uk-card">
-									<div class="uk-card-media-top">
-										<img src="img/gabriel.jpg" alt="">
-									</div>
-									
-									<div class="uk-card-body product-card-text">
-										<p class="uk-text-center">ZACHARY</p>
-										
-										<p class="uk-text-center">$ 89.99</p>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="uk-card">
-									<div class="uk-card-media-top">
-										<img src="img/gabriel.jpg" alt="">
-									</div>
-									
-									<div class="uk-card-body product-card-text">
-										<p class="uk-text-center">ZACHARY</p>
-										
-										<p class="uk-text-center">$ 89.99</p>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="uk-card">
-									<div class="uk-card-media-top">
-										<img src="img/gabriel.jpg" alt="">
-									</div>
-									
-									<div class="uk-card-body product-card-text">
-										<p class="uk-text-center">ZACHARY</p>
-										
-										<p class="uk-text-center">$ 89.99</p>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="uk-card">
-									<div class="uk-card-media-top">
-										<img src="img/gabriel.jpg" alt="">
-									</div>
-									
-									<div class="uk-card-body product-card-text">
-										<p class="uk-text-center">ZACHARY</p>
-										
-										<p class="uk-text-center">$ 89.99</p>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="uk-card">
-									<div class="uk-card-media-top">
-										<img src="img/gabriel.jpg" alt="">
-									</div>
-									
-									<div class="uk-card-body product-card-text">
-										<p class="uk-text-center">ZACHARY</p>
-										
-										<p class="uk-text-center">$ 89.99</p>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="uk-card">
-									<div class="uk-card-media-top">
-										<img src="img/gabriel.jpg" alt="">
-									</div>
-									
-									<div class="uk-card-body product-card-text">
-										<p class="uk-text-center">ZACHARY</p>
-										
-										<p class="uk-text-center">$ 89.99</p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-					
-					<div class="uk-hidden@s uk-light"><a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous" style="color: black;"></a>
-			            <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next" style="color: black;"></a></div>
-					
-					<div class="uk-visible@s"><a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous" style="color: black;"></a>
-			            <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next" style="color: black;"></a></div>
-				</div>
-			
-			    <!--<ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>-->
-			</div>
-		</div>
-		
-		<div class="uk-grid-small uk-child-width-1-2@m big-photo" uk-grid>
-			<div>
-				<div class="uk-inline uk-light">
-					<img src="img/top-banner-home-1.jpg" alt="">
-					
-					<div class="uk-position-center">
-		                <!-- <span uk-overlay-icon></span> -->
-		                <h2><strong>BEST SELLERS</strong></h2>
-					</div>
-				</div>
-			</div>
-			
-			<div>
-				<div class="uk-inline uk-light">
-					<img src="img/top-banner-home-2.jpg" alt="">
-					
-					<div class="uk-position-center">
-		                <!-- <span uk-overlay-icon></span> -->
-		                <h2><strong>LOOKBOOK</strong></h2>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div class="uk-background-muted uk-padding uk-panel bottom-slider">
-			<div class="uk-container">
-				<div class="uk-flex-middle" uk-grid>
-					<div class="uk-width-1-3@m">
-						<div class="fb-section-title uk-text-center">OUR FAVORITES FROM FACEBOOK</div>
-					</div>
-					
-					<div class="uk-width-1-2@m">
-						<div class="uk-flex-middle" uk-grid>
-							<div class="uk-width-1-5@m">
-								<div class="uk-text-center">
-									<img src="img/instagram_icon.png" alt="" style="height: 50px;" />
-								</div>
-							</div>
-							
-							<div class="uk-width-1-5@m">
-								<div>
-									<div class="fb-section-text uk-text-center">Facebook
-									<br /><a href="http://facebook.com"> @helios</a></div>
-								</div>
-							</div>
-							
-							<div class="uk-width-1-5@m uk-visible@m">
-								<div>
-									<div class="uk-text-center fb-section-text">589
-										<br />posts
-									</div>
-								</div>
-							</div>
-							
-							<div class="uk-width-1-5@m uk-visible@m">
-								<div>
-									<div class="uk-text-center fb-section-text">262K
-										<br />followers
-									</div>
-								</div>
-							</div>
-							
-							<div class="uk-width-1-5@m uk-visible@m">
-								<div>
-									<div class="uk-text-center fb-section-text">446K
-										<br />Like
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<div class="uk-width-1-6@m">
-						<div class="uk-text-center"><a class="uk-button uk-button-secondary">DISCOVER</a></div>
-					</div>
-				</div>
-				
-				<div uk-slider class="bottom-slider">
-					<div class="uk-position-relative">
-						<div class="uk-slider-container uk-light">
-							<ul class="uk-slider-items uk-child-width-1-2@s uk-child-width-1-4@m">
-								<div class="uk-visible-toggle">
-									<li>
-										<img src="img/slider1.jpg" alt="">
-									</li>
-									
-									<div class="uk-overlay-primary uk-position-cover uk-invisible-hover">
-										<div class="uk-overlay uk-position-center uk-light"><a href="#" class="uk-button btn-shop-it">SHOP IT</a></div>
-									</div>
-									<!---->
-								</div>
-								<li>
-									<img src="img/slider2.jpg" alt="">
-									
-									<div class="uk-position-center uk-panel">
-										<h1>2</h1>
-									</div>
-								</li>
-								<li>
-									<img src="img/slider3.jpg" alt="">
-									
-									<div class="uk-position-center uk-panel">
-										<h1>3</h1>
-									</div>
-								</li>
-								<li>
-									<img src="img/slider4.jpg" alt="">
-									
-									<div class="uk-position-center uk-panel">
-										<h1>4</h1>
-									</div>
-								</li>
-								<li>
-									<img src="img/slider5.jpg" alt="">
-									
-									<div class="uk-position-center uk-panel">
-										<h1>5</h1>
-									</div>
-								</li>
-								<li>
-									<img src="img/slider1.jpg" alt="">
-									
-									<div class="uk-position-center uk-panel">
-										<h1>6</h1>
-									</div>
-								</li>
-								<li>
-									<img src="img/slider2.jpg" alt="">
-									
-									<div class="uk-position-center uk-panel">
-										<h1>7</h1>
-									</div>
-								</li>
-								<li>
-									<img src="img/slider3.jpg" alt="">
-									
-									<div class="uk-position-center uk-panel">
-										<h1>8</h1>
-									</div>
-								</li>
-								<li>
-									<img src="img/slider4.jpg" alt="">
-									
-									<div class="uk-position-center uk-panel">
-										<h1>9</h1>
-									</div>
-								</li>
-								<li>
-									<img src="img/slider5.jpg" alt="">
-									
-									<div class="uk-position-center uk-panel">
-										<h1>10</h1>
-									</div>
-								</li>
-							</ul>
-						</div>
-						
-						<div class="uk-hidden@s uk-light"><a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-				            <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a></div>
-						
-						<div class="uk-visible@s"><a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-				            <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div class="top-header" style="margin-top: 0px;">
-			<p class="uk-text-center uk-text-middle">FREE WORLDWIDE SHIPPING
-				<span>
+
+    <div class="uk-container">
+        <!--dạng hover card-->
+        <!--<div uk-slider="center: true">
+            <div class="uk-position-relative">
+                <div class="uk-slider-container uk-light">
+                    <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-grid-small" style="padding-bottom: 20px;">
+                        <li>
+                            <div class="uk-card uk-card-default uk-card-hover">
+                                <div class="uk-card-media-top">
+                                    <img src="img/photo.jpg" alt="">
+                                </div>
+
+                                <div class="uk-card-body">
+                                    <p class="uk-text-center">ZACHARY</p>
+
+                                    <p class="uk-text-center">$ 89.99</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card uk-card-default uk-card-hover">
+                                <div class="uk-card-media-top">
+                                    <img src="img/photo.jpg" alt="">
+                                </div>
+
+                                <div class="uk-card-body">
+                                    <p class="uk-text-center">ZACHARY</p>
+
+                                    <p class="uk-text-center">$ 89.99</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card uk-card-default uk-card-hover">
+                                <div class="uk-card-media-top">
+                                    <img src="img/photo.jpg" alt="">
+                                </div>
+
+                                <div class="uk-card-body">
+                                    <p class="uk-text-center">ZACHARY</p>
+
+                                    <p class="uk-text-center">$ 89.99</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card uk-card-default uk-card-hover">
+                                <div class="uk-card-media-top">
+                                    <img src="img/photo.jpg" alt="">
+                                </div>
+
+                                <div class="uk-card-body">
+                                    <p class="uk-text-center">ZACHARY</p>
+
+                                    <p class="uk-text-center">$ 89.99</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card uk-card-default uk-card-hover">
+                                <div class="uk-card-media-top">
+                                    <img src="img/photo.jpg" alt="">
+                                </div>
+
+                                <div class="uk-card-body">
+                                    <p class="uk-text-center">ZACHARY</p>
+
+                                    <p class="uk-text-center">$ 89.99</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card uk-card-default uk-card-hover">
+                                <div class="uk-card-media-top">
+                                    <img src="img/photo.jpg" alt="">
+                                </div>
+
+                                <div class="uk-card-body">
+                                    <p class="uk-text-center">ZACHARY</p>
+
+                                    <p class="uk-text-center">$ 89.99</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card uk-card-default uk-card-hover">
+                                <div class="uk-card-media-top">
+                                    <img src="img/photo.jpg" alt="">
+                                </div>
+
+                                <div class="uk-card-body">
+                                    <p class="uk-text-center">ZACHARY</p>
+
+                                    <p class="uk-text-center">$ 89.99</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card uk-card-default uk-card-hover">
+                                <div class="uk-card-media-top">
+                                    <img src="img/photo.jpg" alt="">
+                                </div>
+
+                                <div class="uk-card-body">
+                                    <p class="uk-text-center">ZACHARY</p>
+
+                                    <p class="uk-text-center">$ 89.99</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card uk-card-default uk-card-hover">
+                                <div class="uk-card-media-top">
+                                    <img src="img/photo.jpg" alt="">
+                                </div>
+
+                                <div class="uk-card-body">
+                                    <p class="uk-text-center">ZACHARY</p>
+
+                                    <p class="uk-text-center">$ 89.99</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="uk-hidden@s uk-light"><a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous" style="color: black;"></a>
+                    <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next" style="color: black;"></a></div>
+
+                <div class="uk-visible@s"><a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous" style="color: black;"></a>
+                    <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next uk-slider-item="next" style="color: black;"></a></div>
+            </div>
+
+            <!--<ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>--*>
+        </div>-->
+        <!--dạng flat card-->
+        <div uk-slider="center: true">
+            <div class="uk-position-relative">
+                <div class="uk-slider-container uk-light">
+                    <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-grid-small"
+                        style="padding-bottom: 20px;">
+                        <li>
+                            <div class="uk-card">
+                                <div class="uk-card-media-top">
+                                    <img src="img/gabriel.jpg" alt="">
+                                </div>
+
+                                <div class="uk-card-body product-card-text">
+                                    <p class="uk-text-center">ZACHARY</p>
+
+                                    <p class="uk-text-center">$ 89.99</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card">
+                                <div class="uk-card-media-top">
+                                    <img src="img/gabriel.jpg" alt="">
+                                </div>
+
+                                <div class="uk-card-body product-card-text">
+                                    <p class="uk-text-center">ZACHARY</p>
+
+                                    <p class="uk-text-center">$ 89.99</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card">
+                                <div class="uk-card-media-top">
+                                    <img src="img/gabriel.jpg" alt="">
+                                </div>
+
+                                <div class="uk-card-body product-card-text">
+                                    <p class="uk-text-center">ZACHARY</p>
+
+                                    <p class="uk-text-center">$ 89.99</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card">
+                                <div class="uk-card-media-top">
+                                    <img src="img/gabriel.jpg" alt="">
+                                </div>
+
+                                <div class="uk-card-body product-card-text">
+                                    <p class="uk-text-center">ZACHARY</p>
+
+                                    <p class="uk-text-center">$ 89.99</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card">
+                                <div class="uk-card-media-top">
+                                    <img src="img/gabriel.jpg" alt="">
+                                </div>
+
+                                <div class="uk-card-body product-card-text">
+                                    <p class="uk-text-center">ZACHARY</p>
+
+                                    <p class="uk-text-center">$ 89.99</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card">
+                                <div class="uk-card-media-top">
+                                    <img src="img/gabriel.jpg" alt="">
+                                </div>
+
+                                <div class="uk-card-body product-card-text">
+                                    <p class="uk-text-center">ZACHARY</p>
+
+                                    <p class="uk-text-center">$ 89.99</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card">
+                                <div class="uk-card-media-top">
+                                    <img src="img/gabriel.jpg" alt="">
+                                </div>
+
+                                <div class="uk-card-body product-card-text">
+                                    <p class="uk-text-center">ZACHARY</p>
+
+                                    <p class="uk-text-center">$ 89.99</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card">
+                                <div class="uk-card-media-top">
+                                    <img src="img/gabriel.jpg" alt="">
+                                </div>
+
+                                <div class="uk-card-body product-card-text">
+                                    <p class="uk-text-center">ZACHARY</p>
+
+                                    <p class="uk-text-center">$ 89.99</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="uk-hidden@s uk-light"><a class="uk-position-center-left uk-position-small" href="#"
+                                                     uk-slidenav-previous uk-slider-item="previous"
+                                                     style="color: black;"></a>
+                    <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next
+                       uk-slider-item="next" style="color: black;"></a></div>
+
+                <div class="uk-visible@s"><a class="uk-position-center-left-out uk-position-small" href="#"
+                                             uk-slidenav-previous uk-slider-item="previous" style="color: black;"></a>
+                    <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next
+                       uk-slider-item="next" style="color: black;"></a></div>
+            </div>
+
+            <!--<ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>-->
+        </div>
+    </div>
+
+    <div class="uk-grid-small uk-child-width-1-2@m big-photo" uk-grid>
+        <div>
+            <div class="uk-inline uk-light">
+                <img src="img/top-banner-home-1.jpg" alt="">
+
+                <div class="uk-position-center">
+                    <!-- <span uk-overlay-icon></span> -->
+                    <h2><strong>BEST SELLERS</strong></h2>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="uk-inline uk-light">
+                <img src="img/top-banner-home-2.jpg" alt="">
+
+                <div class="uk-position-center">
+                    <!-- <span uk-overlay-icon></span> -->
+                    <h2><strong>LOOKBOOK</strong></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="uk-background-muted uk-padding uk-panel bottom-slider">
+        <div class="uk-container">
+            <div class="uk-flex-middle" uk-grid>
+                <div class="uk-width-1-3@m">
+                    <div class="fb-section-title uk-text-center">OUR FAVORITES FROM FACEBOOK</div>
+                </div>
+
+                <div class="uk-width-1-2@m">
+                    <div class="uk-flex-middle" uk-grid>
+                        <div class="uk-width-1-5@m">
+                            <div class="uk-text-center">
+                                <img src="img/instagram_icon.png" alt="" style="height: 50px;"/>
+                            </div>
+                        </div>
+
+                        <div class="uk-width-1-5@m">
+                            <div>
+                                <div class="fb-section-text uk-text-center">Facebook
+                                    <br/><a href="http://facebook.com"> @helios</a></div>
+                            </div>
+                        </div>
+
+                        <div class="uk-width-1-5@m uk-visible@m">
+                            <div>
+                                <div class="uk-text-center fb-section-text">589
+                                    <br/>posts
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="uk-width-1-5@m uk-visible@m">
+                            <div>
+                                <div class="uk-text-center fb-section-text">262K
+                                    <br/>followers
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="uk-width-1-5@m uk-visible@m">
+                            <div>
+                                <div class="uk-text-center fb-section-text">446K
+                                    <br/>Like
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-1-6@m">
+                    <div class="uk-text-center"><a class="uk-button uk-button-secondary">DISCOVER</a></div>
+                </div>
+            </div>
+
+            <div uk-slider class="bottom-slider">
+                <div class="uk-position-relative">
+                    <div class="uk-slider-container uk-light">
+                        <ul class="uk-slider-items uk-child-width-1-2@s uk-child-width-1-4@m">
+                            <div class="uk-visible-toggle">
+                                <li>
+                                    <img src="img/slider1.jpg" alt="">
+                                </li>
+
+                                <div class="uk-overlay-primary uk-position-cover uk-invisible-hover">
+                                    <div class="uk-overlay uk-position-center uk-light"><a href="#"
+                                                                                           class="uk-button btn-shop-it">SHOP
+                                        IT</a></div>
+                                </div>
+                                <!---->
+                            </div>
+                            <li>
+                                <img src="img/slider2.jpg" alt="">
+
+                                <div class="uk-position-center uk-panel">
+                                    <h1>2</h1>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="img/slider3.jpg" alt="">
+
+                                <div class="uk-position-center uk-panel">
+                                    <h1>3</h1>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="img/slider4.jpg" alt="">
+
+                                <div class="uk-position-center uk-panel">
+                                    <h1>4</h1>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="img/slider5.jpg" alt="">
+
+                                <div class="uk-position-center uk-panel">
+                                    <h1>5</h1>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="img/slider1.jpg" alt="">
+
+                                <div class="uk-position-center uk-panel">
+                                    <h1>6</h1>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="img/slider2.jpg" alt="">
+
+                                <div class="uk-position-center uk-panel">
+                                    <h1>7</h1>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="img/slider3.jpg" alt="">
+
+                                <div class="uk-position-center uk-panel">
+                                    <h1>8</h1>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="img/slider4.jpg" alt="">
+
+                                <div class="uk-position-center uk-panel">
+                                    <h1>9</h1>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="img/slider5.jpg" alt="">
+
+                                <div class="uk-position-center uk-panel">
+                                    <h1>10</h1>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="uk-hidden@s uk-light"><a class="uk-position-center-left uk-position-small" href="#"
+                                                         uk-slidenav-previous uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next
+                           uk-slider-item="next"></a></div>
+
+                    <div class="uk-visible@s"><a class="uk-position-center-left-out uk-position-small" href="#"
+                                                 uk-slidenav-previous uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next
+                           uk-slider-item="next"></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="top-header" style="margin-top: 0px;">
+        <p class="uk-text-center uk-text-middle">FREE WORLDWIDE SHIPPING
+            <span>
 					<a href="#" style="color: white; text-decoration: underline;">SHOP NOW</a>
 				</span></p>
-		</div>
-			
-		<a href="#0" class="cd-top">Top</a>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script src="js/main.js"></script> <!-- Gem jQuery -->
-	</div>
+    </div>
+
+    <a href="#0" class="cd-top">Top</a>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/main.js"></script> <!-- Gem jQuery -->
+</div>
 </body>
 <!--<a href="#" uk-totop uk-scroll></a>-->
 </html>
